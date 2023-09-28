@@ -6,11 +6,6 @@ repositories {
     gradlePluginPortal()
 }
 
-java {
-    // build convention plugins against 17
-    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
-}
-
 dependencies {
     // Comment/uncomment dependencies as needed
     // Sets the version of Kotlin imported by convention plugins
