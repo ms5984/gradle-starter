@@ -1,7 +1,5 @@
-import org.gradle.kotlin.dsl.dependencies
-
 plugins {
-    id("java")
+    java
 }
 
 repositories {
